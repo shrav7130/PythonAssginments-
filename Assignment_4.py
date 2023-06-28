@@ -15,6 +15,7 @@ while i<=10:
         break
     else:
         print(i)
+        i+=1
 
 # 2)continue
 for i in "Shravan":
@@ -29,6 +30,7 @@ while i<=10:
         continue
     else:
         print(i)
+        i+=1
 
 # 3)pass
 for i in "Shravan":
@@ -43,6 +45,7 @@ while i<=10:
         pass
     else:
         print(i)
+        i+=1
 
 # 4)for with else loop
 for i in "Shravan":
@@ -77,6 +80,7 @@ while i<=10:
         break
     else:
         print(i)
+        i+=1
 else:
     print("This has break")
 
@@ -86,6 +90,7 @@ while i<=10:
         continue
     else:
         print(i)
+        i+=1
 else:
     print("This has continue")
 
@@ -95,6 +100,7 @@ while i<=10:
         pass
     else:
         print(i)
+        i+=1
 else:
     print("This has pass")
 
