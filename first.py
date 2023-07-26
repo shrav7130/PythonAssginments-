@@ -1,7 +1,7 @@
-num1 =20
-num2 =10
-num3 =40
+num1 =int(input("Enter 1st Number:"))
+num2 =int(input("Enter 2nd Number:"))
+num3 =int(input("Enter 3rd Number:"))
 
 average=(num1+num2+num3)/3
 
-print("The Average of n1,n2,n3 is  ",average)
+print(f"The Average of {num1},{num2},{num3} is  ",average)
